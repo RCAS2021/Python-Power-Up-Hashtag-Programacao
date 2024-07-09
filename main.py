@@ -1,7 +1,5 @@
 import pyautogui
 import pandas as pd
-import openpyxl
-import numpy
 import time
 
 # Passo 1: Entrar no sistema da empresa através do link

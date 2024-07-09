@@ -7,8 +7,6 @@
 # Bibliotecas utilizadas
 - pyautogui
 - pandas
-- openpyxl
-- numpy
 - time
 
 # Arquivos
