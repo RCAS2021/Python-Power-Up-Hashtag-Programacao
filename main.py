@@ -119,8 +119,11 @@ for r in produtos.index:
     pyautogui.press('tab')
 
     # Observações
-    pyautogui.write(str(produtos.obs[r]))
-    pyautogui.press('tab')
+    if str(produtos.obs[r] == "NaN"):
+        pyautogui.press('tab')
+    else:
+        pyautogui.write(str(produtos.obs[r]))
+        pyautogui.press('tab')
 
     # Clicar no botão de enviar
     pyautogui.press('enter')
